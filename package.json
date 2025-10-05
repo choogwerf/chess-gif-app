@@ -1,0 +1,30 @@
+{
+  "name": "chess-gif-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "18.3.0",
+    "react-dom": "18.3.0",
+    "chess.js": "^1.0.0",
+    "three": "^0.160.0",
+    "@react-three/fiber": "^8.13.0",
+    "@react-three/drei": "^9.77.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.2",
+    "@types/react": "^18.2.40",
+    "@types/node": "^20.8.10",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.3",
+    "eslint": "8.50.0",
+    "eslint-config-next": "14.0.0"
+  }
+}
